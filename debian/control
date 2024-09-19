@@ -1,0 +1,14 @@
+Source: brcm-patchram-plus
+Section: misc
+Priority: optional
+Maintainer: Nate Drude <nate.d@variscite.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+Homepage: https://github.com/varigit/brcm-patchram-plus
+
+Package: brcm-patchram-plus
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: BRCM Patchram Plus tool for ARM64
+ A tool to load firmware patches on Broadcom devices.
+
